@@ -1,0 +1,7 @@
+{
+  "name": "مناسِكي - Manasiki",
+  "description": "رفيق الحاج الذكي: حقيبة الاستعداد، رادار الرفاق والزحام اللحظي، خدمات ومخيم المشاعر، وعداد المناسك.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

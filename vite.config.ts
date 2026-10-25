@@ -10,6 +10,8 @@ export default defineConfig(() => {
       react(),
       tailwindcss(),
       VitePWA({
+        selfDestroying: true,
+        injectRegister: null,
         registerType: 'autoUpdate',
         includeAssets: ['icon.svg'],
         manifest: {
@@ -39,8 +41,7 @@ export default defineConfig(() => {
           ],
         },
         devOptions: {
-          enabled: true,
-          type: 'module',
+          enabled: false,
         },
       }),
     ],
